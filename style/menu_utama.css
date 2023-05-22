@@ -1,0 +1,32 @@
+body{
+    min-width: 100dvw;
+    min-height: 100dvh;
+    margin: 0;
+    
+}
+.dashboard{
+    background-image: url('../images/dashboard.png');
+    height: 100dvh;
+    width: 100dvw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info_user h2{
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.info_user h3{
+    position: absolute;
+    top: 400px;
+    left:200px;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+}
